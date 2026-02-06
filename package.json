@@ -1,0 +1,34 @@
+{
+  "name": "templaterepo",
+  "version": "1.0.0",
+  "description": "Template repo for front end",
+  "main": "webpack.config.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --config webpack.dev.js",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnorlaxPapa/templateRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnorlaxPapa/templateRepo/issues"
+  },
+  "homepage": "https://github.com/SnorlaxPapa/templateRepo#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.3",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.6",
+    "mini-css-extract-plugin": "^2.10.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.105.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
