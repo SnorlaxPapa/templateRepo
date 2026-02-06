@@ -2,7 +2,7 @@
   "name": "templaterepo",
   "version": "1.0.0",
   "description": "Template repo for front end",
-  "main": "webpack.config.js",
+  "main": "./src/main.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
